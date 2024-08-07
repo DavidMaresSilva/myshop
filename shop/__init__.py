@@ -14,4 +14,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///myshop.db"
 # initialize the app with the extension
 db.init_app(app)
 
-from shop import routes
+from shop.admin import routes
